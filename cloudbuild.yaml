@@ -1,0 +1,9 @@
+steps:
+
+- id: "Go mod init"
+  name: 'golang'
+  args: ['go', 'mod', 'init', 'github.com/leticiapillar/gcp-go-sum']
+
+- id: "Go test"
+  name: 'golang'
+  args: ['go', 'test', '-v', 'main_test.go', 'main.go']
