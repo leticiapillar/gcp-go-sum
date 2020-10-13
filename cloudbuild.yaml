@@ -6,7 +6,7 @@ steps:
 
 - id: "Go test"
   name: 'golang'
-  args: ['go', 'test', '-v', 'main_test.go', 'main.go']
+  args: ['go', 'test', '-v', 'src/soma/main_test.go', 'src/soma/main.go']
 
 - id: "Docker build"
   name: 'docker'
